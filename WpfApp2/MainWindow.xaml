@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Проверка числа" Height="288.357" Width="337.763">
+    <Grid>
+        <Label x:Name="lblText" Content="Введите число:" HorizontalAlignment="Left" Margin="88,27,0,0" VerticalAlignment="Top" FontSize="18" Height="35" Width="138"/>
+        <Button x:Name="btnProverka" Content="Проверка" HorizontalAlignment="Left" Margin="98,126,0,0" VerticalAlignment="Top" FontSize="18" Width="116" Click="btnProverka_Click" Height="49"/>
+        <Label x:Name="lblOtvet" Content="" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" FontSize="18" Height="44" Width="310"/>
+        <TextBox x:Name="tBoxVvod" HorizontalAlignment="Left" Height="40" Margin="82,67,0,0" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Top" Width="150"/>
+
+    </Grid>
+</Window>
